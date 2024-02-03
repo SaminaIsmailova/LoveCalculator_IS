@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".FirstFragment">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/img_ff"
+        android:layout_marginVertical="32dp"
+        android:background="@color/black"
+        android:layout_width="250dp"
+        android:layout_height="250dp" />
+    <EditText
+        android:id="@+id/et_first_name"
+        android:layout_marginVertical="12dp"
+        android:layout_width="match_parent"
+        android:textSize="32sp"
+        android:layout_height="wrap_content"
+        android:hint="First" />
+
+    <EditText
+        android:id="@+id/et_second_name"
+        android:layout_marginVertical="12dp"
+        android:layout_width="match_parent"
+        android:textSize="32sp"
+        android:layout_height="wrap_content"
+        android:hint="Second" />
+
+    <Button
+        android:id="@+id/btn_get_love"
+        android:text="Get Love"
+        android:layout_marginTop="32dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
